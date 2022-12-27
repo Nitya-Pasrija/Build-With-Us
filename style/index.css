@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+header, nav {
+    background-color: #251749;
+    color: white;
+    border: 1px solid lightgray;
+    margin: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.menu_button:hover {
+    background-color: #263159;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px 8px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+.container {
+    background-color: #F2E5E5;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+
+.cleared {
+    clear: left;
+}
+
+nav {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+.para{
+    padding:40px 250px;
+    text-align: center;
+    background-color: #0e76a8;
+    justify-content: center;
+}
+
+.sub_heading {
+    background: rgb(28,25,81);
+    background: linear-gradient(90deg, #472d2d 0%, #553939 50%, #704f4f 100%);
+    padding: 10px 55px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.carousel-cell {
+    width: 60%;
+    height: 400px;
+    margin-right: 10px;
+    background: #850e35;
+    border-radius: 5px;
+}
+
+.carousel-cell {
+    color: #fff5e4;
+    text-align: center;
+    padding: 25px;
+}
+#carousel-img{
+    width: 200px;
+    height: 120px;
+    border-radius: 5px;
+}
+.social_media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.social_media a {
+    background-color: rgb(207, 205, 205);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.25em;
+}
+
+.social_media a:hover {
+    background-color: rgb(177, 177, 177);
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+footer div a {
+    background-color: rgb(207, 205, 205);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: black;
+}
+
+footer div a:hover {
+    background-color: rgb(177, 177, 177);
+}
+
+.github_handle {
+    color: #211F1F;
+}
+.hackerrank_handle {
+    color: #102a4e;
+}
+.linkedin_handle {
+    color: #0e76a8;
+}
+.google_developers_handle {
+    color: #4885ed;
+}
+.coursera_handle {
+    color: 0056d2;
+}
+
+#letus-build {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    nav {
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    nav a {
+        padding: 5px;
+    }
+    .carousel-cell {
+        width: 80%;
+        height: 450px;
+    }
+    .social_media {
+        flex-direction: column;
+    }
+    footer div {
+        flex-direction: column;
+    }
+    #letus-build {
+        width: 100%;
+    }
+}
+

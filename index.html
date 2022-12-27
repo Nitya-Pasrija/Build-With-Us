@@ -1,11 +1,136 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Build-It</title>
+    
+    <!-- Website icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    
+    <!-- CSS slide -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    
+    <!--Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/index.css">
 </head>
+
 <body>
-    Build-It
+
+    <div class="container">
+
+    <header>
+        <h1> Let's Build It! </h1>
+    </header>
+
+    <nav>
+        <a href="index.html" class="menu_button">Home</a>
+        <a href="roadmaps.html" target="_blank" class="menu_button">Roadmaps</a>
+        <a href="courses.html" target="_blank" class="menu_button">Courses</a>
+        <a href="login.html" target="_blank" class="menu_button">Join Us</a>
+        <a href="signup.html" target="_blank" class="menu_button">SignUp</a>
+        <a href="game.html" target="_blank" class="menu_button">Projects</a>
+        <a href="contact_form.html" target="_blank" class="menu_button">Contact Form</a>
+        <a href="contact_info.html" target="_blank" class="menu_button">Contact Info</a>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <h2> <span class="sub_heading"> Various Tech Stacks </span> </h2>
+        
+        <br>
+
+        <div class="carousel" data-flickity='{ "wrapAround": true }'>
+            <div class="carousel-cell"> <h3>Flutter</h3>
+                <img src="images/flutter.png" id="carousel-img">
+                <p>
+                    Flutter is an open-source mobile application development framework created by Google. It allows developers to build natively compiled apps for mobile, web, and desktop from a single codebase using the Dart programming language. It has a fast, expressive, and flexible UI and is widely used for building beautiful, high-performance apps for iOS and Android.
+                </p>
+            </div>
+            <div class="carousel-cell"> <h3>JavaScript</h3>
+                <img src="images/js.jpg" id="carousel-img">
+                <p>
+                    JavaScript (JS) is a programming language that is primarily used to create dynamic and interactive web pages. It is a client-side language, which means that it is executed by the web browser on the user's device rather than on the server. JavaScript is often used in conjunction with HTML and CSS to create interactive elements on web pages, such as buttons, forms, and drop-down menus.
+                </p>
+            </div>
+            <div class="carousel-cell"> <h3>Mern Stack</h3>
+                <img src="images/mern.png" id="carousel-img">
+                <p>
+                    The MERN stack is a popular technology stack used for building web applications. It stands for MongoDB, Express, React, and Node.js, and includes a set of tools and frameworks for creating full-stack web apps using JavaScript. The MERN stack offers a powerful and flexible set of tools for building modern web applications.
+                </p>
+            </div>
+            <div class="carousel-cell"> <h3>Machine Learning</h3>
+                <img src="images/python-ml.jpeg" id="carousel-img">
+                <p>
+                    Machine learning is a subset of artificial intelligence that involves using algorithms to enable computers to learn and make decisions. It is used in a variety of applications and has the potential to transform industries. Machine learning involves feeding data into a model, which uses the data to make predictions or take actions.
+                </p>
+            </div>
+            <div class="carousel-cell"> <h3>Java</h3>
+                <img src="images/java.webp" id="carousel-img">
+                <p>
+                    Java is widely used for building a variety of applications, including web, mobile, and desktop applications, as well as back-end systems and scientific applications. It is known for its portability, which means that Java programs can run on any device that has a Java Virtual Machine (JVM) installed, regardless of the underlying hardware and operating system.
+                </p>
+            </div>
+            <div class="carousel-cell"> <h3>GoLang</h3>
+                <img src="images/golang.png" id="carousel-img">
+                <p>
+                    Go (also known as Golang) is also known for its strong support for testing and debugging, as well as its ability to produce static and self-contained binaries that can be easily deployed. Go is used in a variety of applications, including web development, system programming, and data processing.
+                </p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div>
+            <h2> <span class="sub_heading"> Join Us  </span> </h2>
+            <br>
+            <img src="images/letus-build.gif" alt="build together" id="letus-build">
+            <br>
+            <h2> <span class="sub_heading"> Let's build together?  </span> </h2>
+            
+            <div class="para">
+                <p>
+                    Building software projects is an important part of the software development process because it allows developers to apply the concepts and techniques they have learned in a practical setting. It also helps to improve problem-solving skills, as developers must figure out how to implement solutions to real-world problems using the tools and technologies at their disposal.
+                </p>
+                <br>
+                <p>
+                    We invite you to join our cause of building software projects as a way to improve your skills and contribute to the tech community. By participating in hands-on software project building, you will have the opportunity to learn and grow as a developer while also making a positive impact on the world around you.
+                </p>
+            </div>
+            <br>
+            <img src="images/benefits.jpeg" alt="build together" id="letus-build">
+        </div>
+        <br>
+        <section>     
+            <hr>      
+            <h2> <span class="sub_heading"> Want to know more? Reach Out! </span> </h2>        
+            <br>
+    </main>
+
+    <footer>
+        <div>
+            <a href="#"> <i class="fa fa-question fa-lg" aria-hidden="true"></i> &nbsp;FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="contact_info.html" target="_blank"> <i class="fa fa-phone fa-lg" aria-hidden="true"></i> &nbsp;Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#"> Terms of use</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#"> Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#"> RoadMaps</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">&copy; &nbsp;2023</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i>&nbsp;Back to top</a>
+        </div>   
+        <br>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    </div>
+
 </body>
 </html>
